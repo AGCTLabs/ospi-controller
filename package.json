@@ -1,0 +1,14 @@
+{
+  "name": "ospi-controller",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "underscore": "*",
+    "express": "3.2.3",
+    "optimist": "*"
+  }
+}

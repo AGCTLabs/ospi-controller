@@ -1,0 +1,698 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clearT",
+				"clearInterval();"
+			],
+			[
+				"open",
+				"Open"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"tasklisttool",
+				"tasklisttoolbar"
+			],
+			[
+				"eventdisp",
+				"EventDispatch"
+			],
+			[
+				"console",
+				"console.log();"
+			],
+			[
+				"AuthUtil",
+				"AuthUtils"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/scripts/tmplts/content.html",
+			"settings":
+			{
+				"buffer_size": 1017,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.json",
+			"settings":
+			{
+				"buffer_size": 1614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/ospi_controller.js",
+			"settings":
+			{
+				"buffer_size": 1837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/content.js",
+			"settings":
+			{
+				"buffer_size": 2747,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/subnav.js",
+			"settings":
+			{
+				"buffer_size": 962,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/activezones.js",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/app.js",
+			"settings":
+			{
+				"buffer_size": 1266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/models/viewstate.js",
+			"settings":
+			{
+				"buffer_size": 1059,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/tmplts/activezones.html",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 2314,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"I",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"id",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/projects/ospi-controller/app/scripts/views/app.js",
+		"/opt/projects/ospi-controller/app/scripts/views/subnav.js",
+		"/opt/projects/ospi-controller/app/index.html",
+		"/opt/projects/ospi-controller/app/scripts/views/activezones.js",
+		"/opt/projects/ospi-controller/app/scripts/views/content.js",
+		"/opt/projects/ospi-controller/app/scripts/routes/approuter.js",
+		"/opt/projects/ospi-controller/app/scripts/tmplts/subnav.html",
+		"/opt/projects/ospi-controller/config.json",
+		"/opt/projects/ospi-controller/lib/ospi_controller.js",
+		"/opt/projects/ospi-controller/app/scripts/tmplts/content.html",
+		"/opt/projects/ospi-controller/app/scripts/models/viewstate.js",
+		"/opt/projects/ospi-controller/app/scripts/tmplts/activezones.html",
+		"/opt/projects/ospi-controller/server.js",
+		"/opt/projects/ospi-controller/lib/config_manager.js",
+		"/opt/projects/ospi-controller/app/clock.html",
+		"/opt/projects/ospi-controller/app/css/bootswatch.css",
+		"/opt/projects/ospi-controller/ospi-controller.sublime-workspace",
+		"/opt/projects/gtasks/public/js/views/lists/addtask.js",
+		"/opt/projects/gtasks/public/js/views/taskitem.js",
+		"/opt/projects/gtasks/public/js/templates/taskitem.html",
+		"/opt/projects/gtasks/public/js/config.js",
+		"/opt/projects/gtasks/public/js/views/lists/edittask.js",
+		"/opt/projects/gtasks/app.js",
+		"/opt/projects/gtasks/public/js/views/tasks.js",
+		"/opt/projects/gtasks/public/js/views/tasklist.js",
+		"/opt/projects/tasks/public/js/views/tasks.js",
+		"/opt/projects/tasks/public/js/templates/lists/addtask.html",
+		"/opt/projects/tasks/public/js/views/tasklist.js",
+		"/opt/projects/tasks/public/js/views/lists/edittask.js",
+		"/opt/projects/tasks/public/js/templates/lists/edittask.html",
+		"/opt/projects/tasks/public/js/views/taskitem.js",
+		"/opt/projects/tasks/public/js/gapi.js",
+		"/opt/projects/tasks/public/js/views/lists/deletetask.js",
+		"/opt/projects/tasks/public/js/templates/lists/deletetask.html",
+		"/opt/projects/tasks/public/js/views/lists/addtask.js",
+		"/opt/projects/tasks/app.js",
+		"/opt/projects/tasks/public/js/views/lists/editlist.js",
+		"/opt/projects/tasks/public/js/views/lists/addlist.js",
+		"/opt/projects/tasks/public/js/templates/taskitem.html",
+		"/opt/projects/tasks/public/js/views/plugins/toggle.js",
+		"/opt/projects/tasks/public/js/views/lists/menuitem.js",
+		"/opt/projects/tasks/public/js/views/content.js",
+		"/opt/projects/tasks/public/js/templates/tasks.html",
+		"/opt/projects/tasks/public/index.html",
+		"/opt/projects/tasks/public/js/main.js",
+		"/opt/projects/tasks/public/js/views/plugins.js",
+		"/opt/projects/tasks/public/css/app.css",
+		"/opt/projects/tasks/public/js/views/toolbars/tasklisttoolbar.js",
+		"/opt/projects/tasks/public/css/toggle.css",
+		"/opt/projects/tasks/public/js/views/plugins/feedback.js",
+		"/opt/projects/tasks/public/js/templates/tasklist.html",
+		"/opt/projects/tasks/public/js/templates/lists/deletelist.html",
+		"/opt/projects/tasks/public/js/templates/lists/editlist.html",
+		"/opt/projects/tasks/public/js/templates/lists/menuitem.html",
+		"/opt/projects/tasks/public/js/templates/nav.html",
+		"/opt/projects/tasks/public/js/config.js",
+		"/opt/projects/tasks/package.json",
+		"/opt/projects/tasks/public/js/app.js",
+		"/opt/projects/tasks/public/js/templates/toolbars/tasklisttoolbar.html",
+		"/opt/projects/tasks/public/js/lib/ICanHaz.min.js",
+		"/opt/projects/tasks/public/js/models/task.js",
+		"/opt/projects/tasks/public/js/models/tasklist.js",
+		"/opt/projects/tasks/public/js/views/lists/menu.js",
+		"/opt/projects/tasks/public/js/templates/lists/addlist.html",
+		"/opt/projects/tasks/public/js/collections/tasks.js",
+		"/opt/projects/tasks/public/js/collections/tasklists.js",
+		"/opt/projects/tasks/public/js/templates/lists/menu.html",
+		"/opt/projects/tasks/public/js/eventhandler.js",
+		"/opt/projects/tasks/public/js/views/lists/deletelist.js",
+		"/opt/projects/tasks/public/js/templates/content.html",
+		"/opt/projects/tasks/public/js/views/footer.js",
+		"/opt/projects/tasks/public/js/views/auth.js",
+		"/opt/projects/tasks/public/js/eventdispatch.js",
+		"/opt/projects/tasks/public/js/views/nav.js",
+		"/opt/projects/tasks/public/js/templates/auth.html",
+		"/opt/projects/tasks/public/js/views/plugins/alert.js",
+		"/opt/projects/tasks/public/js/templates/welcome.html",
+		"/opt/projects/tasks/public/js/views/welcome.js",
+		"/opt/projects/tasks/public/js/templates/footer.html",
+		"/opt/projects/tasks/public/js/views/app.js",
+		"/opt/projects/tasks/public/js/templates/app.html",
+		"/opt/projects/tasks/public/js/utils/authutils.js",
+		"/opt/projects/tasks/public/js/authutils.js",
+		"/opt/projects/tasks/build/index.html",
+		"/opt/projects/tasks/require-config.js",
+		"/opt/projects/tasks/grunt.js",
+		"/opt/projects/tasks/public/js/lib/backbone-min.js",
+		"/opt/projects/bootstrap/bs4/package.json",
+		"/opt/projects/bootstrap/bs4/public/index.html",
+		"/opt/projects/bootstrap/bs4/public/css/bootstrap-responsive.min.css",
+		"/opt/projects/bootstrap/bs4/public/css/bootstrap.min.css",
+		"/opt/projects/bootstrap/bs4/app.js",
+		"/opt/projects/bootstrap/bs4/routes/user.js",
+		"/opt/projects/bootstrap/bs4/routes/tasks.js",
+		"/opt/projects/bootstrap/bs4/bs4.sublime-project",
+		"/opt/projects/bootstrap/bs4/bs4.sublime-workspace",
+		"/usr/share/applications/defaults.list",
+		"/usr/share/applications/stext.desktop"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"startTimer",
+			"subnav",
+			"module",
+			"config",
+			"project",
+			"gtasks",
+			"needsAction",
+			"task-item",
+			"MUSTACHE",
+			"listMenu",
+			"page-header",
+			"self",
+			"\n        ",
+			"alert",
+			"Ema",
+			"twitter",
+			"xml",
+			"gedit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/tmplts/content.html",
+					"settings":
+					{
+						"buffer_size": 1017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								869,
+								869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.json",
+					"settings":
+					{
+						"buffer_size": 1614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/ospi_controller.js",
+					"settings":
+					{
+						"buffer_size": 1837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1446,
+								1446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/views/content.js",
+					"settings":
+					{
+						"buffer_size": 2747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2747,
+								2747
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1618.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/views/subnav.js",
+					"settings":
+					{
+						"buffer_size": 962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/views/activezones.js",
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								841,
+								841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/scripts/views/app.js",
+					"settings":
+					{
+						"buffer_size": 1266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								968,
+								968
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/scripts/models/viewstate.js",
+					"settings":
+					{
+						"buffer_size": 1059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								965,
+								965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 592.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/scripts/tmplts/activezones.html",
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 2314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1704,
+								1704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 320.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"public/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true
+}

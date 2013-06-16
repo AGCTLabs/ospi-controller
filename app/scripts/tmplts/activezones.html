@@ -1,0 +1,14 @@
+<div class="row" id="activezones">
+<div class="span4">
+   <div class="well">
+      <% _.each(data, function(item) { %>
+          <span class="badge badge-info"> <%= item.name %></span>
+      <% }); %>
+   </div>
+</div>
+<div class="span2">
+   <p>
+     <button class="btn btn-large btn-primary" type="button" id="zshutall">Shut Off</button>
+   </p>
+</div>
+</div>

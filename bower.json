@@ -1,0 +1,11 @@
+{
+  "name": "RequireJS Starter",
+  "version": "1.0.0",
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "latest",
+    "backbone-amd": "latest",
+    "bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
+    "underscore-amd": "latest"
+  }
+}
