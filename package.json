@@ -10,5 +10,8 @@
     "underscore": "*",
     "express": "3.2.3",
     "optimist": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }

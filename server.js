@@ -2,10 +2,10 @@
 /**
  * Module dependencies.
  */
-
 var express = require('express')
     OspiController = require('./lib/ospi_controller')
   , http = require('http')
+  , routes = require('./routes/zones.js')
   , path = require('path');
 
 
@@ -26,13 +26,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/zones', function(req, res) {
-    res.send(ospiController.getZones());
-});
-
-app.get('/activezones', function(req, res) {
-    res.send(ospiController.getActiveZones());
-});
+routes.setup({"app" : app, "controller" : ospiController});
 
 var server = http.createServer(app);
 
