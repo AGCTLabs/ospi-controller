@@ -5,7 +5,8 @@
 var express = require('express')
     OspiController = require('./lib/ospi_controller')
   , http = require('http')
-  , routes = require('./routes/zones.js')
+  , zoneRoutes = require('./routes/zones.js')
+  , ctrlRoutes = require('./routes/ctrl.js')
   , path = require('path');
 
 
@@ -26,7 +27,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-routes.setup({"app" : app, "controller" : ospiController});
+zoneRoutes.setup({"app" : app, "controller" : ospiController});
+ctrlRoutes.setup({"app" : app, "controller" : ospiController});
 
 var server = http.createServer(app);
 

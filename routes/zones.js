@@ -1,5 +1,5 @@
-var controller =  null;
 var _  = require('underscore');
+var controller =  null;
 
 exports.findById = function(req, res) {
     var id = req.params.id;
@@ -86,3 +86,7 @@ exports.setup = function(options) {
     app.delete('/zones/:id', exports.deleteZone);
 
 };
+
+
+
+
