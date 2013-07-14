@@ -53,11 +53,11 @@ exports.updateZone = function(req, res) {
             if (zone.notes) {
                 zone2Upd.notes = zone.notes;
             }
-            break;
+            res.send(zone2Upd);
+            return;
         } 
     }
-    res.send(zone2Upd);
-
+    res.status(404).send('Not found');    
 }
 
 exports.deleteZone = function(req, res) {
@@ -67,10 +67,12 @@ exports.deleteZone = function(req, res) {
     for (var i = 0; i < controller.zones.length; i++) {
         if (controller.zones[i].id == id) {
            controller.zones.splice(i, 1);
+           res.send()
+           return;
         } 
     }
 
-    res.send();
+    res.status(404).send('Not found');
 }
 
 exports.setup = function(options) {

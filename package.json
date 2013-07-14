@@ -12,6 +12,8 @@
     "optimist": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "restify": "*",
+    "should": "*"
   }
 }
