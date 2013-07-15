@@ -10,17 +10,9 @@ var express = require('express')
   , fs = require('fs')
   , path = require('path');
 
-
-
-var logFile = fs.createWriteStream('./logs/server.log', {flags: 'a'});
-
-
 var app = express();
 
-// all environments
-
-
-
+// all environment
 app.use(express.favicon());
 app.use(express.bodyParser());
 app.use(express.methodOverride());
@@ -34,7 +26,7 @@ if ('development' == app.get('env')) {
 exports.start = function(options) {
 	options = options || {};
 
-	var logtream = options.logStream || logFile;
+	var logStream = options.logStream || fs.createWriteStream('./logs/server.log', {flags: 'a'});
 
 	app.set('port', options.port || process.env.PORT || 3000);
 	app.use(express.logger({stream: logStream}));

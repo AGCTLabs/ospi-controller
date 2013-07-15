@@ -6,9 +6,9 @@ var utils = require('../../lib/utils')
 /*
 * Start the server with these parameters
 */
-
 var serverStart = false;
-server.start({"port": 3444,"fileName" : "./test/config.json"});
+var logFile = fs.createWriteStream('./logs/test-zones-server.log', {flags: 'w'});
+server.start({"port": 3444,"fileName" : "./test/config.json", logStream: logFile});
 
 var client = restify.createJsonClient({
     url: 'http://localhost:3444',
