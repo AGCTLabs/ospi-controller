@@ -1,4 +1,4 @@
 app/scripts/vendor
 node_modules
 logs/server.log
-logs/test-server.log
+logs/test-*server.log
