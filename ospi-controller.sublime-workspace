@@ -43,7 +43,7 @@
 			"file": "app/scripts/tmplts/content.html",
 			"settings":
 			{
-				"buffer_size": 1017,
+				"buffer_size": 1080,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "lib/ospi_controller.js",
 			"settings":
 			{
-				"buffer_size": 1837,
+				"buffer_size": 2334,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +183,10 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -353,17 +356,18 @@
 				{
 					"buffer": 0,
 					"file": "app/scripts/tmplts/content.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1017,
+						"buffer_size": 1080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								869,
-								869
+								0,
+								0
 							]
 						],
 						"settings":
@@ -381,6 +385,7 @@
 				{
 					"buffer": 1,
 					"file": "config.json",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1614,
@@ -409,17 +414,18 @@
 				{
 					"buffer": 2,
 					"file": "lib/ospi_controller.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1837,
+						"buffer_size": 2334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1446,
-								1446
+								0,
+								0
 							]
 						],
 						"settings":
@@ -437,6 +443,7 @@
 				{
 					"buffer": 3,
 					"file": "app/scripts/views/content.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2747,
@@ -465,6 +472,7 @@
 				{
 					"buffer": 4,
 					"file": "app/scripts/views/subnav.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 962,
@@ -493,6 +501,7 @@
 				{
 					"buffer": 5,
 					"file": "app/scripts/views/activezones.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1071,
@@ -521,6 +530,7 @@
 				{
 					"buffer": 6,
 					"file": "app/scripts/views/app.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1266,
@@ -549,6 +559,7 @@
 				{
 					"buffer": 7,
 					"file": "app/scripts/models/viewstate.js",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1059,
@@ -564,7 +575,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 592.0,
@@ -575,6 +587,7 @@
 				{
 					"buffer": 8,
 					"file": "app/scripts/tmplts/activezones.html",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 359,
@@ -601,6 +614,7 @@
 				{
 					"buffer": 9,
 					"file": "app/index.html",
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 2314,
@@ -664,6 +678,7 @@
 	{
 		"height": 320.0
 	},
+	"project": "ospi-controller.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -689,10 +704,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 275.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
