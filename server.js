@@ -8,6 +8,7 @@ var express = require('express')
   , zoneRoutes = require('./routes/zones.js')
   , ctrlRoutes = require('./routes/ctrl.js')
   , fs = require('fs')
+  , mkdirp = require('mkdirp')
   , path = require('path');
 
 var app = express();
@@ -23,10 +24,20 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+defaultLogFile = function() {
+  var p = path.join(__dirname,'logs');
+  mkdirp(p);
+  var fpath = path.join(p,'ospic-server.log');
+
+  var logStream = fs.createWriteStream(fpath, {flags: 'a'});
+
+  return logStream;
+}
+
 exports.start = function(options) {
 	options = options || {};
 
-	var logStream = options.logStream || fs.createWriteStream('./logs/server.log', {flags: 'a'});
+	var logStream = options.logStream || defaultLogFile();
 
 	app.set('port', options.port || process.env.PORT || 3000);
 	app.use(express.logger({stream: logStream}));

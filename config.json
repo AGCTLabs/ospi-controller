@@ -4,46 +4,32 @@
         "id"          : 0,
         "name"        : "Backyard Lawn",
         "description" : "Lawn about 700 Sq/ft. This is Emerald Fescue. Needs to be watered twice a week",
-        "station"     : 7,
-        "notes"       : "Some notes on kinds of plants.",
-        "schedule"    : [
-            {
-              "day": "Mon",
-              "time": "04:12",
-              "active": "yes",
-              "duration" : "60 secs"
-            }
-        ]
+        "station"     : 7
       },
       {
         "id"          : 1,
         "name"        : "Veggies and Fruits",
         "description" : "Vegetable Garden and Fruits. This is side yard on the right of the house",
-        "station"     : 4,
-        "notes"       : "Some notes on kinds of plants"
+        "station"     : 4
       },
+
       {
         "id"          : 2,
         "name"        : "Flower Bed and Shrubs",
         "description" : "This is the L shaped Flower bed and shrub area that is on the left corner of the house.",
-        "station"     : 6,
-        "notes"       : "Some notes on kinds of plants"
+        "station"     : 6
       },
       {
         "id"          : 3,
         "name"        : "Flower Bed",
         "description" : "This is on the left side of the house.",
-        "station"     : 8,
-        "notes"       : "Some notes on kinds of plants"
+        "station"     : 8
       },
       {
         "id"          : 4,
         "name"        : "Plants and trees",
         "description" : "This is the L shaped area that is the on right corner of the house.",
-        "station"     : 5,
-        "notes"       : "Some notes on kinds of plants"
+        "station"     : 5
       }
-   ],
-   "schedulerType": "Local",
-   "schedulerInterval": "5 secs"
+   ]
 }

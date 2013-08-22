@@ -5,11 +5,12 @@
   "scripts": {
     "start": "node server.js"
   },
+  "bin": "bin/ospic",
   "dependencies": {
-    "async": "*",
     "underscore": "*",
     "express": "3.2.3",
-    "optimist": "*"
+    "mkdirp": "*",
+    "commander": "*"
   },
   "devDependencies": {
     "mocha": "*",

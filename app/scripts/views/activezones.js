@@ -1,37 +1,26 @@
-define(['vendor/text!tmplts/activezones.html', 'backbone'], 
-                    function(template, Backbone) {
+define(['vendor/text!tmplts/activezones.html',
+ ], function(template) {
 
-  var ActiveZones = Backbone.View.extend({
+  var ActiveZonesView = Backbone.View.extend({
     template: _.template(template),
 
-    el: '#tb1',
     events: {
        'click #zshutall':  'shutAll'
     },
 
-    initialize: function(args) {
-      var that = this;
-      this.app = args.app;
-      this.app.viewState.on("change:openValves", this.render, this);
+    initialize: function(options) {
+
+      var self = this;
+      this.app = options.app;
+      this.render();
     },
 
     render: function() {
-      this.$el.find('#activezones').remove();
+      var models = this.app.activeZones.models;
 
-      var openValves = this.app.viewState.get('openValves');
-      var zones =  openValves ? openValves.split(",") : [];
-      var data = [];
-
-      for (var i = 0; i < this.app.data.length; i++) {
-        var id = '' + this.app.data[i].id;
-        if (_.indexOf(zones, id) != -1) {
-          data.push(this.app.data[i]);
-        }
-      };
-
-      if (data && data.length) {
-        var li = this.template({data: data});
-        this.$el.append($(li));
+      if (models && models.length) {
+        this.$el = $(this.template({data: models}));
+        $('#tb1').append(this.$el);
       }
     },
 
@@ -41,5 +30,5 @@ define(['vendor/text!tmplts/activezones.html', 'backbone'],
     
   });
 
-  return ActiveZones;
+  return ActiveZonesView;
 });

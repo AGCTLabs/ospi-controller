@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+var server = require('../server');
+var program = require('commander');
+var fs = require('fs');
+var path = require('path');
+var mkdirp = require('mkdirp');
+
+/**
+ * CLI
+ */
+function list(val) {
+  return val.split(',');
+}
+
+program
+  .version('0.0.1')
+  .option('-p, --port <port>', 'HTTP Port to use. Default is 8000', parseInt)
+  .option('-c, --config <configFile>', 'Config file location. Default is config.json')
+  .option('-l, --log <logFile>', 'Log file. Default is logs/ospic-server.log')
+  .parse(process.argv);
+
+var options = {};
+if (program.port)
+  options.port = program.port;
+
+if (program.config)
+  options.configFile = program.config;
+
+if (program.log) {
+  var dir = path.dirname(program.log);
+  mkdirp(dir);
+
+  var logStream = fs.createWriteStream(program.log, {flags: 'a'});
+
+  return logStream;
+}
+server.start(options)

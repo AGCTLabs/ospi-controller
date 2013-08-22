@@ -1,0 +1,28 @@
+  <div class="span12">
+    <br/>
+    <legend><%= name %>
+    <a href="#zones/<%=id%>" class="btn btn-inverse btn-mini pull-right">Update Zone</a></legend>
+    <span><%= description %></span>
+    <div class="row-fluid">
+      <div class="span2">
+         <p>
+           <button class="btn btn-large btn-primary" type="button" id="zopenshut">
+             <% if (typeof(valve_open) == "undefined") { %>
+                 <span><i class="icon-off icon-inverse"></i> Open</span>
+             <%} else {  %>
+                 <span><i class="icon-off"></i> Shut</span>
+             <% } %>
+              
+          </button>
+         </p>
+      </div>
+      <div class="span6" id="counter">
+            <span>
+             <% if (typeof(open_time) != "undefined") { %>
+               Last run: <%= new Date(open_time) %>
+             <% } %>
+             </span>
+             <h3></h3>           
+          </div>
+    </div>
+  </div>
