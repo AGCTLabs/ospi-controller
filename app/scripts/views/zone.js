@@ -73,8 +73,6 @@ var ZoneView = Backbone.View.extend({
         error: function (model, err) {
           $('#galert').feedback('show',
               {type:'error',msg: err.responseText});
-
-          console.log(err);
         }
       });
     },

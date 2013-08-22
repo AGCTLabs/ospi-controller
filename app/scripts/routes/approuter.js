@@ -5,8 +5,7 @@ define([],function() {
     "routes": {
       "zones/add"      : "addZone",   
       "zones/:zoneId"  : "showZoneDetails",
-      "zhs/:zoneId"    : "showZoneActions",
-      "/"              : "show"
+      "zhs/:zoneId"    : "showZoneActions"
     },
 
     initialize: function(args) {
@@ -18,10 +17,6 @@ define([],function() {
         this.app.zonesView.remove();
 
       this.app.addZone();
-    },
-
-    show : function() {
-      console.log('show');
     },
 
     showZoneDetails : function(zoneId) {

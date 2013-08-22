@@ -6,7 +6,6 @@ define(
         options || (options = {});
         this.type = options.type;
         this.type = this.type || 'info';
-        console.log(this.type);
 
         return this; 
       },

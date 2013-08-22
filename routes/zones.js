@@ -18,7 +18,6 @@ ValidationException.prototype.getHttpCode = function() {
 
 exports.findById = function(req, res) {
     var id = req.params.id;
-    console.log('Retrieving zone: ' + id);
 
     for (var i = 0; i < controller.zones.length; i++) {
         if (controller.zones[i].id == id) {
@@ -46,10 +45,7 @@ validateAndSanitizeZone = function(zone) {
                 || zone.active == null) {
     zone.active = 'Yes';
   }
-
-  console.log('Before one: ' + JSON.stringify(zone));
   zone.station = parseInt(zone.station);
-  console.log('After zone: ' + JSON.stringify(zone));
 
   for (var i = 0; i < controller.zones.length; i++) {
     if (zone.station == controller.zones[i].station
@@ -79,7 +75,6 @@ exports.addZone = function(req, res) {
     }
 
     zone.id = controller.getNextId();
-    console.log('Adding zone: ' + JSON.stringify(zone));
     controller.zones.push(zone);
     controller.save();
     res.send(zone);
@@ -99,13 +94,10 @@ exports.updateZone = function(req, res) {
     }
 
     var zone2Upd = null;
-    console.log('Updating zone: ' + id);
-    console.log(JSON.stringify(zone));
 
     for (var i = 0; i < controller.zones.length; i++) {
         if (controller.zones[i].id == id) {
             zone2Upd = controller.zones[i];
-            console.log(JSON.stringify(zone2Upd));
             if (zone.name) {
                 zone2Upd.name = zone.name;
             }
@@ -121,7 +113,6 @@ exports.updateZone = function(req, res) {
 
 exports.deleteZone = function(req, res) {
     var id = req.params.id;
-    console.log('Deleting zone: ' + id);
     var zone2Del = null;
     for (var i = 0; i < controller.zones.length; i++) {
         zone2Del = controller.zones[i];

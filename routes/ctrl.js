@@ -7,7 +7,6 @@ exports.stats = function(req, res) {
 
 exports.open = function(req, res) {
     var zoneId = req.params.id;
-    console.log('Open Zone: ' + zoneId);
     controller.open(zoneId);
 
     res.send();
@@ -15,13 +14,11 @@ exports.open = function(req, res) {
 
 exports.close = function(req, res) {
     var zoneId = req.params.id;
-    console.log('Close Zone: ' + zoneId);
     controller.shut(zoneId);
     res.send();
 };
 
 exports.closeAll = function(req, res) {
-    console.log('Close All Zones: ');
     controller.shut();
     res.send();
 }
