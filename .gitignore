@@ -1,3 +1,2 @@
 node_modules
-logs/server.log
-logs/test-*server.log
+logs/*.log

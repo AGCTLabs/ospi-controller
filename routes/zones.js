@@ -37,7 +37,7 @@ validateAndSanitizeZone = function(zone) {
 
   if (zone.station == null || zone.station === '') {
     throw new ValidationException(
-        {message: "Station for zone cannot be null or empty. It must be a valid value between 0 and 15.",
+        {message: "Station id must be set for a zone. It cannot be null or empty and must be a valid value between 0 and 15.",
         httpCode: 400});
   }
 
@@ -53,7 +53,7 @@ validateAndSanitizeZone = function(zone) {
         zone.id != controller.zones[i].id) {
         throw new ValidationException(
         {message: 
-            "Zone station "+zone.station +" already assigned and used by "
+            "Station id "+zone.station +" already assigned and used by "
             +controller.zones[i].name,
         httpCode: 400});
     }

@@ -1,15 +1,29 @@
 {
   "name": "ospi-controller",
   "version": "0.0.1",
-  "private": true,
+  "description" : "A Web Controller for Raspberry Pi based Sprinkler Valve control system",
+  "version": "0.0.1",
+  "cpu" : [ "arm"],
+  "keywords": [
+   "OpenSprinkler",
+   "WiringPi",
+   "RaspberryPi",
+   "Web Controller",
+   "hardware"
+  ],
+  "bin": "bin/ospic",
   "scripts": {
     "start": "node server.js"
   },
-  "bin": "bin/ospic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AGCTLabs/ospijs.git"
+  },
   "dependencies": {
     "underscore": "*",
     "express": "3.2.3",
     "mkdirp": "*",
+    "ospi": "*",
     "commander": "*"
   },
   "devDependencies": {
