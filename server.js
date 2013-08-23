@@ -39,7 +39,7 @@ exports.start = function(options) {
 
 	var logStream = options.logStream || defaultLogFile();
 
-	app.set('port', options.port || process.env.PORT || 3000);
+	app.set('port', options.port || process.env.PORT || 8000);
 	app.use(express.logger({stream: logStream}));
 
 	var ospiController = new OspiController(options);

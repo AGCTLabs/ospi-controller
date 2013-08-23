@@ -1,7 +1,7 @@
 {
   "name": "ospi-controller",
   "version": "0.0.1",
-  "description" : "A Web Controller for Raspberry Pi based Sprinkler Valve control system",
+  "description" : "A Web Controller and REST interface for Raspberry Pi based irrigation system's sprinkler valve control",
   "version": "0.0.1",
   "cpu" : [ "arm"],
   "keywords": [
