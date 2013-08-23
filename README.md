@@ -49,3 +49,36 @@ sudo /opt/sw/node/bin/ospi-controller --config $HOME/ospic-config.json --port 88
 ````
 
 This will start the controller at port 8888 and will use /opt/ospic/ospic-config.json as the config file that would provide irrigation zone information. If the file does not exist, a new fill will be saved at this location with zone information created using the web ui.
+
+
+#####Screenshots
+######First time access
+
+So for the very fist time when you login, you need to setup the zones. This the screenshot of no zones scenario.
+![No Zones](/docs/screenshots/no-zones.png)
+
+######After adding couple of zones
+Following screenshots show creation of two zones. You can click on "Add zone" button to create a zone. Alternatively you can click Settings > Add zone at the top right corner.
+![Add Zone](/docs/screenshots/zone-add.png)
+
+One more 
+
+![Add Another Zone](/docs/screenshots/zone-add-1.png)
+
+
+######After zones are setup. (Default Screen)
+
+Once these two zones are created successfully the home screen would look like.
+
+![Add Another Zone](/docs/screenshots/zones.png)
+
+######Open Zone. 
+
+Now you can click on the open button for a specific zone to open the irrigation valve. Once you clicked on it, it will show the currently opened zones at the top and also it will idicate for how long the zone was open
+
+![Open Zone](/docs/screenshots/open-zone-1.png)
+
+Similarly you can select a particular zone using the nav bar and click on the open button for that zone. That way you can open multiple zones and all the open zones will show at the top. You can either select a single zone and shut or shut all the zones at onces.
+
+![Open Zone](/docs/screenshots/open-zone-3.png)
+
