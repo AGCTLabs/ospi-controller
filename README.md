@@ -82,3 +82,7 @@ Similarly you can select a particular zone using the nav bar and click on the op
 
 ![Open Zone](/docs/screenshots/open-zone-3.png)
 
+######Update Zone
+It is also possible to update and delete a zone.
+![Open Zone](/docs/screenshots/zone-update.png)
+
