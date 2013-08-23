@@ -38,5 +38,14 @@ sudo /opt/sw/node/bin/ospi-controller --help
     -p, --port <port>          HTTP Port to use. Default is 8000
     -c, --config <configFile>  Config file location. Default is config.json
     -l, --log <logFile>        Log file. Default is logs/ospic-server.log
+    
+# /opt/sw/node is the where the Node is installed. 
 
 ````
+
+for example you can start the contoller 
+````shell
+sudo /opt/sw/node/bin/ospi-controller --config $HOME/ospic-config.json --port 8888
+````
+
+This will start the controller at port 8888 and will use /opt/ospic/ospic-config.json as the config file that would provide irrigation zone information. If the file does not exist, a new fill will be saved at this location with zone information created using the web ui.
