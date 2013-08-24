@@ -6,15 +6,13 @@ This project provides
   - A REST API for your Raspberry pi based irrigation system
   - A Easy to use Web controller interface to control the irrigation system valves
 
+REST API and the Web UI are built using [Node JS](http://nodejs.org), [Express JS](http://expressjs.com), [JQuery](http://jquery.com), [Backbone JS](http://backbonejs.org), [Twitter Bootstrap](http://getbootstrap.com/2.3.2/), [Require JS](http://requirejs.org)
+
 Using the REST API you can build your own custom UI. REST Interface allows you to add, modify,delete and list zones. More importantly it provides control operations to open and shut the irrigation valves.
 
 Web UI uses the REST API to provide simple and easy to use user interface to manage irrigation zones and ctrolling of their valves. This Web UI is also mobile friendly.
 
-REST API and the Web UI are built using [Node JS](http://nodejs.org), [Express JS](http://expressjs.com), [JQuery](http://jquery.com), [Backbone JS](http://backbonejs.org), [Twitter Bootstrap](http://getbootstrap.com/2.3.2/), [Require JS](http://requirejs.org)
-
-
 ![Phone-1](/docs/screenshots/phone-2.png)  ![Phone-1](/docs/screenshots/phone-1.png)
-
 
 #### Prerequisite
   - [Raspberry Pi](http://raspberrypi.org)
