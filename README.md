@@ -6,6 +6,8 @@ This project provides
   - A REST Interface for your Raspberry pi based irrigation system
   - A Easy to use Web controller interface to control the irrigation system
 
+Using the reset interface you can build your own custom UI. REST Interface allows you to add, modify,delete and list zones. More importantly it provides control operations to open and shut the irrigation valves.
+
 
 #### Prerequisite
   - [Raspberry Pi](http://raspberrypi.org)
